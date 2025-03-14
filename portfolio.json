@@ -1,0 +1,238 @@
+{
+  "name": "Mike Zhang",
+  "label": "Software Developer/Electronic Engineer",
+  "image_path": "img/me.jpg",
+  "contact": {
+    "email": "zhangmike1999@gmail.com",
+    "phone": "+1 (289)-962-4345",
+    "location": "Ontario, Canada"
+  },
+  "summary": "Passionate about building intelligent systems that blend AI, embedded hardware, and software to solve real-world problems.",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "Personal Website",
+      "url": "https://ps.w.org/under-construction-page/assets/screenshot-2.png?rev=1840052",
+      "svg_path": "img/globe.svg"
+    },
+    {
+      "label": "Linkedin",
+      "url": "www.linkedin.com/in/yumingzhang1999",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/fistfulofyen",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "DateAnnotation",
+      "position": "Software Developer",
+      "url": "https://www.dataannotation.tech/",
+      "start_date": "09/2024",
+      "end_date": "Present",
+      "summary": "Contract",
+      "highlights": [
+        "Trained and evaluated AI coding LLM by developing programming challenges, assessing AI-generated code for accuracy and efficiency, and providing clear, well-documented solutions in many programming languages, with 100+ completed projects"
+        
+      ]
+    },
+    {
+      "company": "McMaster University - Systems",
+      "position": "Bussiness System Analyst",
+      "url": "https://www.mcmaster.ca/",
+      "start_date": "05/2022",
+      "end_date": "09/2023",
+      "summary": "Full-time",
+      "highlights": [
+        "Conducted Functional, Acceptance, Performance testing on McMaster awarding platforms. Automated testing process using Selenium and command-line scripting, optimized submission response time to under 2 seconds",
+        "Developed a RESTful API with PDF/DOCX parsing, integrating OpenAI GPT for skill extraction and semantic matching against award criteria, enabling a 5-point candidate evaluation system that reduced review time from 50+ reviewers over two weeks to a single reviewer in just two days",
+        "Perform data analysis/visualization on over 37,000 Applicant data using Python and Power BI to determine business strategy, saving 5+ hour monthly query runtime utilizing dataflows and DAX queries"
+      ]
+    },
+    {
+      "company": "BlueWave Technology",
+      "position": "Software Developer Co-op",
+      "url": "https://bluewave.net/",
+      "start_date": "05/2021",
+      "end_date": "12/2021",
+      "summary": "Full-time",
+      "highlights": [
+        "Contributed to the development of Java/Linux-based enterprise-level DNS, DHCP, and IPAM (DDI) solution, collaborating with a team of developers on two major product releases",
+        "Collaborated with QA engineers to develop test cases, reproduce bugs, and validate fixes, ranked as the top co-op developer for resolving the highest number of bugs during every release cycle"
+        
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Lidar room scanner",
+      "summary": "",
+      "url": "https://github.com/fistfulofyen/VL53L1X_LIDAR",
+      "highlights": [
+        "Created an embedded 3D environment measurement device which uses an VL53L1X time of flight sensor to determine the distance around it.",
+        "The sensor is attached to an stepper motor which spin 360 degree within a single vertical geometric y and z plane to measure distance.",
+        "All controled why a MSP432E401Y microcontroller from Texas Instruments."
+      ],
+      "images": [
+        {
+          "img_path": "project_image/lidar_setup.JPG",
+          "caption": "lidar setup"
+        },
+        {
+          "img_path": "project_image/circuit schematic.png",
+          "caption": "circuit schematic"
+        },
+        {
+          "img_path": "project_image/flow_chart.png",
+          "caption": "flow chart"
+        }
+      ]
+    },
+    {
+      "title": "Flask Webpage",
+      "summary": "Created a styled multi-page website for web blogging.",
+      "url": "https://sample.com",
+      "highlights": [
+        "Create forms, accept user input, and implement validation to enhance the user experience.",
+        "Set up a database using Flask-SQLAlchemy, interact with it in an Object-Oriented manner, and transition to Postgres for deployment.",
+        "Add users to the database and implement a robust authentication system using flask-bcrypt and flask-login."
+      ],
+      "images": [
+        {
+          "img_path": "project_image/flask_blog.png",
+          "caption": "sample home page"
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "McMaster Engineering Fireball",
+      "position": "Welcome week volunteer",
+      "url": "https://www.eng.mcmaster.ca/about-us/fireball-family/",
+      "start_date": "09/2019",
+      "end_date": "09/2020",
+      "summary": "Introduced new student to McMaster Engineering",
+      "highlights": [
+        "Guided new students through McMaster Engineering, providing insights into academic resources, campus life, and professional development opportunities."
+      ]
+    },
+    {
+      "organization": "McMaster Registrar's Office",
+      "position": "Student card hand-out",
+      "url": "https://registrar.mcmaster.ca/",
+      "start_date": "09/2022, 09/2023",
+      "end_date": "",
+      "summary": "Hand-out student cards druing in-person pick-up"
+      
+    },
+    {
+      "organization": "McMaster Convocation",
+      "position": "Welcome week volunteer",
+      "url": "https://registrar.mcmaster.ca/macconvocation/",
+      "start_date": "09/2022, 09/2023",
+      "end_date": "",
+      "summary": "helped students pick out their graduation gown for McMaster's convocation!",
+      "highlights": [
+        "Helped organize the order of students for the stage at McMaster's convocation"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "McMaster University",
+      "location": "Hamilton, ON",
+      "url": "https://www.mcmaster.ca/",
+      "degrees": [
+        "Bachelor of Engineering in Electrical Engineering"
+      ],
+      "honors": ["Outstanding Student Award", "Dean's Honor List"],
+      "gpa_cumulative": "3.7",
+      "gpa_major": "4.0",
+      "graduation_date": "05/2024"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python, Flask, Django",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "SQL, pandas, BI",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "Networking, System Admin, Linux",
+      "proficiency": 80,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "JavaScript, HTML, CSS",
+      "proficiency": 70,
+      "proficiency_label": "Comfortable"
+    }
+  ],
+  "softwares": [
+    {
+      "name": "Azure",
+      "images": [
+        {
+          "img_path": "html_finalprojimages/Azure.png",
+          "caption": "Azure"
+        }
+      ]
+    },
+    {
+      "name": "Docker",
+      "images": [
+        {
+          "img_path": "html_finalprojimages/docker.png",
+          "caption": "Docker"
+        }
+      ]
+    },
+    {
+      "name": "Jira",
+      "images": [
+        {
+          "img_path": "html_finalprojimages/jira.png",
+          "caption": "Jira"
+        }
+      ]
+    },
+    {
+      "name": "PowerBI",
+      "images": [
+        {
+          "img_path": "html_finalprojimages/powerBI.jpg",
+          "caption": "PowerBI"
+        }
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "images": [
+        {
+          "img_path": "html_finalprojimages/postgre.png",
+          "caption": "PostgreSQL"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Advanced"
+    }
+  ]
+  
+}
