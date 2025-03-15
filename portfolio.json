@@ -86,8 +86,8 @@
           "caption": "circuit schematic"
         },
         {
-          "img_path": "project_image/flow_chart.png",
-          "caption": "flow chart"
+          "img_path": "project_image/Microcontroller flowchart.png",
+          "caption": "Microcontroller flowchart"
         }
       ]
     },
@@ -104,6 +104,26 @@
         {
           "img_path": "project_image/flask_blog.png",
           "caption": "sample home page"
+        }
+      ]
+    },
+    {
+      "title": "Biometric Security System",
+      "summary": "Developed a AI enabled home security device.",
+      "url": "https://github.com/fistfulofyen/Biometric_Security_Systems",
+      "highlights": [
+        "Achieved 90%+ accuracy in facial recognition and pedestrian detection using Dlib, OpenCV, and MediaPipe, using pre trained facial landmark detectors for extracting key facial features and applied a support vector machine classifier to recognize faces.",
+        "Improved interaction speed by 70% with a voice-enabled AI assistant using SpeechRecognition, spaCy, and gTTS.",
+        "Engineered a high-reliability door locking system using a PySerial-controlled stepper motor on an ESP32, enclosed in a 3D-printed casing modeled with AutoCAD. Achieved 100% reliability across 1,000+ test cycles"
+      ],
+      "images": [
+        {
+          "img_path": "project_image/flow_chart.png",
+          "caption": "flow chart"
+        },
+        {
+          "img_path": "project_image/GUI.png",
+          "caption": "GUI"
         }
       ]
     }
@@ -165,6 +185,11 @@
       "name": "SQL, pandas, BI",
       "proficiency": 100,
       "proficiency_label": "Expert"
+    },
+    {
+      "name": "Java, Object-Oriented Programming",
+      "proficiency": 80,
+      "proficiency_label": "Advanced"
     },
     {
       "name": "Networking, System Admin, Linux",
@@ -232,6 +257,20 @@
     {
       "language": "Mandarin",
       "fluency": "Advanced"
+    }
+  ],
+  "certifications": [
+    {
+      "institute": "DeepLearning.AI",
+      "cert_name": "Deep Learning Specialization"
+    },
+    {
+      "institute": "Stanford University",
+      "cert_name": "Machine Learning Specialization"
+    },
+    {
+      "institute": "Cisco",
+      "cert_name": "CCNA (in progress)"
     }
   ]
   
