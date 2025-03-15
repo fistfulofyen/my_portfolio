@@ -262,11 +262,13 @@
   "certifications": [
     {
       "institute": "DeepLearning.AI",
-      "cert_name": "Deep Learning Specialization"
+      "cert_name": "Deep Learning Specialization",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/VUM627P6EK4S"
     },
     {
       "institute": "Stanford University",
-      "cert_name": "Machine Learning Specialization"
+      "cert_name": "Machine Learning Specialization",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/NPMRJ2ZN9W99"
     },
     {
       "institute": "Cisco",

@@ -289,11 +289,7 @@
               </ul>
             </section>
           {% endif %}
-
-          <!-- {% if edu.url %}
-                      <a href="{{ edu.url }}">{{ edu.institution }}</a>
-                    {% else %}
-                      {{ edu.institution }}-->
+          
 
           {% if certifications %}
             <section>
@@ -302,12 +298,18 @@
                 {% for certification in certifications %}
                   <li>
                     <h3>{{ certification.institute }}</h3>
-                    <p class="section-label">{{ certification.cert_name }}</p>
+                    <p class="section-label">
+                      {% if certification.url %}
+                      <a href="{{ certification.url }}">{{ certification.cert_name }}</a>
+                      {% else %}
+                      {{ certification.cert_name }}
+                      {% endif %}
+                    </p>
                   </li>
                 {% endfor %}
               </ul>
             </section>
-          {% endif %}
+            {% endif %}
 
           {% if softwares %}
             <section>
