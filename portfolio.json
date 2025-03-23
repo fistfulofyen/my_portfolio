@@ -187,6 +187,11 @@
       "proficiency_label": "Expert"
     },
     {
+      "name": "C, Embedded System",
+      "proficiency": 80,
+      "proficiency_label": "Advanced"
+    },
+    {
       "name": "Java, Object-Oriented Programming",
       "proficiency": 80,
       "proficiency_label": "Advanced"
