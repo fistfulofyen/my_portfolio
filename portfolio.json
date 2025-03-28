@@ -94,7 +94,7 @@
     {
       "title": "Flask Webpage",
       "summary": "Created a styled multi-page website for web blogging.",
-      "url": "https://sample.com",
+      "url": "https://github.com/fistfulofyen/flask_blogpage",
       "highlights": [
         "Create forms, accept user input, and implement validation to enhance the user experience.",
         "Set up a database using Flask-SQLAlchemy, interact with it in an Object-Oriented manner, and transition to Postgres for deployment.",
@@ -102,7 +102,7 @@
       ],
       "images": [
         {
-          "img_path": "project_image/flask_blog.png",
+          "img_path": "project_image/django_blog.png",
           "caption": "sample home page"
         }
       ]
